@@ -1,0 +1,3 @@
+const b = require('jest_test/program1.js/program1');
+
+test('The result should be HELLO ES6', () => { expect(b()).toBe('HELLO ES6'); });
